@@ -14,6 +14,37 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+## Table-Contents
+
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#License)
+* [Questions](#questions)
+    
+## [Description](#table-contents)
+${data.description}
+
+## [Installation](#table-contents)
+${data.installation}
+
+## [Usage](#table-contents)
+${data.usage}
+
+## [Contributing](#table-contents)
+${data.contributing}
+
+## [Tests](#table-contents)
+${data.test}
+
+## [Questions](#table-contents)
+Please contact me using the following links:
+
+[GitHub](https://github.com/${data.github})
+
+[Email: ${data.email}](mailto:${data.email})
 `;
 }
 
