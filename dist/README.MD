@@ -1,6 +1,13 @@
 # asdas
 
-## Table-Contents
+## [License](#table-of-contents)
+The application is covered under the following license:
+
+
+  
+# asdas
+
+## Table of Contents
 
 * [Description](#description)
 * [Installation](#installation)
@@ -10,23 +17,23 @@
 * [License](#License)
 * [Questions](#questions)
     
-## [Description](#table-contents)
-das
+## [Description](#table-of-contents)
+asdas
 
-## [Installation](#table-contents)
-d
+## [Installation](#table-of-contents)
+asdas
 
-## [Usage](#table-contents)
-as
+## [Usage](#table-of-contents)
+asdsa
 
-## [Contributing](#table-contents)
-da
+## [Contributing](#table-of-contents)
+sad
 
-## [Tests](#table-contents)
+## [Tests](#table-of-contents)
 undefined
 
-## [Questions](#table-contents)
-Please contact me using the following links:
-[GitHub](https://github.com/da)
 
-[Email: sd](mailto:sd)
+## [Questions](#table-of-contents)
+Please contact me using the following links:
+[GitHub](https://github.com/sadas)
+[Email: asd](mailto:asd)
