@@ -3,6 +3,10 @@
 function renderLicenseBadge(license) {
   if(license ===  'mit'){
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+  }if(license ===  'ISC'){
+    return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]';
+  }if(license === 'IBM'){
+    return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]';
   }else {return '' }
 }
 
@@ -11,6 +15,10 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if(license ===  'mit'){
     return '(https://opensource.org/licenses/MIT)';
+  }if(license === 'ISC'){
+    return '(https://opensource.org/licenses/ISC)';
+  }if(license === 'IBM'){
+    return '(https://opensource.org/licenses/IPL-1.0)'
   }else {return '' }
 }
 
@@ -18,7 +26,11 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license ===  'mit'){
-    return '';
+    return 'MIT License';
+  }if(license === 'ISC'){
+    return 'ISC License';
+  }if(license === 'IBM'){
+    return 'IBM License'
   }else {return ''; }
 }
 
@@ -26,9 +38,6 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-## [License](#table-of-contents)
-The application is covered under the following license:
-${renderLicenseSection(data.license)}
 ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
   
 # ${data.title}
@@ -56,12 +65,17 @@ ${data.usage}
 ${data.contributing}
 
 ## [Tests](#table-of-contents)
-${data.test}
+${data.tests}
 
+## [License](#table-of-contents)
+The application is covered under the 
+${renderLicenseSection(data.license)}.
 
 ## [Questions](#table-of-contents)
-Please contact me using the following links:
+Please contact me using the following options:
+
 [GitHub](https://github.com/${data.github})
+
 [Email: ${data.email}](mailto:${data.email})
 `;
 }

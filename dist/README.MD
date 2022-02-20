@@ -1,11 +1,8 @@
-# asdas
+# README Generator - hw9
 
-## [License](#table-of-contents)
-The application is covered under the following license:
-
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-# asdas
+# README Generator - hw9
 
 ## Table of Contents
 
@@ -18,22 +15,27 @@ The application is covered under the following license:
 * [Questions](#questions)
     
 ## [Description](#table-of-contents)
-asdas
+quickly create a professional README for a new project
 
 ## [Installation](#table-of-contents)
-asdas
+vs code and npm
 
 ## [Usage](#table-of-contents)
-asdsa
+N/A
 
 ## [Contributing](#table-of-contents)
-sad
+N/A
 
 ## [Tests](#table-of-contents)
-undefined
+N/A
 
+## [License](#table-of-contents)
+The application is covered under the 
+MIT License.
 
 ## [Questions](#table-of-contents)
-Please contact me using the following links:
-[GitHub](https://github.com/sadas)
-[Email: asd](mailto:asd)
+Please contact me using the following options:
+
+[GitHub](https://github.com/N/A)
+
+[Email: N/A](mailto:N/A)
