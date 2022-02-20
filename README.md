@@ -39,6 +39,7 @@ THEN I am taken to the corresponding section of the README
 ## The following video demonstrates the application functionality:
 <img width="678" alt="Screen Shot 2022-02-20 at 5 23 47 PM" src="https://user-images.githubusercontent.com/94802639/154867142-9766872a-45dc-43a3-8210-1366409d1ce3.png">
 
+
 ## The demo README on dist file will look like the below:
 ![Screen Shot 2022-02-20 at 5 25 58 PM](https://user-images.githubusercontent.com/94802639/154867145-475e3150-f3a1-4b1a-8eb4-a0fa0c6c2d5e.png)
 ![Screen Shot 2022-02-20 at 5 26 08 PM](https://user-images.githubusercontent.com/94802639/154867146-fa5770a9-5d88-4030-bc36-660af6916a26.png)

@@ -1,9 +1,7 @@
-# README Generator - hw9
+# README Generator -hw9
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
   
-# README Generator - hw9
-
 ## Table of Contents
 
 * [Description](#description)
@@ -18,7 +16,7 @@
 quickly create a professional README for a new project
 
 ## [Installation](#table-of-contents)
-vs code and npm
+vs code and node.js
 
 ## [Usage](#table-of-contents)
 N/A
@@ -31,7 +29,7 @@ N/A
 
 ## [License](#table-of-contents)
 The application is covered under the 
-MIT License.
+ISC License.
 
 ## [Questions](#table-of-contents)
 Please contact me using the following options:
